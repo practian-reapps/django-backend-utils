@@ -1,10 +1,10 @@
 ########################################
-Django oauth2_backend
+Django backend_utils
 ########################################
 
 .. class:: no-web
 
-    Django oauth2 backend es una manera fácil de extender la clase ``AbstractUser`` de `Django`_ y define un modelo de *autenticación/autorización* para **aplicaciones SaaS** para los proyectos de `Django`_.
+    Django backend_utils es una manera fácil de extender la clase ``AbstractUser`` de `Django`_ y define un modelo de *autenticación/autorización* para **aplicaciones SaaS** para los proyectos de `Django`_.
 
 
     .. image:: https://github.com/submitconsulting/backengo/blob/master/media/test_images/img1.png
@@ -39,13 +39,13 @@ The **latest development version** can be installed directly from github_:
 .. code-block:: bash
     
     # Universal
-    $ pip install --upgrade https://github.com/practian-reapps/django-oauth2-backend/raw/master/dist/django-oauth2-backend-0.1.zip
+    $ pip install --upgrade https://github.com/practian-reapps/django-backend-utils/raw/master/dist/django-backend-utils-0.1.zip
 
 or clone from github_:
 
 .. code-block:: bash
 
-    $ git clone https://github.com/practian-reapps/django-oauth2-backend.git
+    $ git clone https://github.com/practian-reapps/django-backend-utils.git
 
 (If ``pip`` installation fails for some reason, you can try ``easy_install`` as a fallback.)
 
@@ -162,23 +162,16 @@ advanced usage, and also features additional examples.*
 Quick start
 ===========
 
-1. Add "oauth2_backend" to your INSTALLED_APPS setting like this:
+1. Add "backend_utils" to your INSTALLED_APPS setting like this:
 
 .. code-block:: bash
 
     INSTALLED_APPS = [
         ...
 
-        'oauth2_backend',
+        'backend_utils',
     ]
 
-
-2. Settings AUTH_USER_MODEL the default user model by the following value model::
-
-    AUTH_USER_MODEL = 'oauth2_backend.User'
-
-
-3. Finally, run ``python manage.py migrate`` to create the oauth2_backend models.
 
 ====
 Meta
@@ -188,14 +181,14 @@ Meta
 Change log
 ----------
 
-See `CHANGELOG <https://github.com/practian-reapps/django-oauth2-backend/blob/master/CHANGELOG.rst>`_.
+See `CHANGELOG <https://github.com/practian-reapps/django-backend-utils/blob/master/CHANGELOG.rst>`_.
 
 
 -------
 Licence
 -------
 
-BSD-3-Clause: `LICENSE <https://github.com/practian-reapps/django-oauth2-backend/blob/master/LICENSE>`_.
+BSD-3-Clause: `LICENSE <https://github.com/practian-reapps/django-backend-utils/blob/master/LICENSE>`_.
 
 
 
@@ -211,12 +204,12 @@ Authors
 Contributors
 -------
 
-See https://github.com/practian-reapps/django-oauth2-backend/graphs/contributors
+See https://github.com/practian-reapps/django-backend-utils/graphs/contributors
 
 
 .. _Django OAuth Toolkit: https://django-oauth-toolkit.readthedocs.io
 .. _Django: https://www.djangoproject.com
-.. _github: https://github.com/practian-reapps/django-oauth2-backend
+.. _github: https://github.com/practian-reapps/django-backend-utils
 
 
 
