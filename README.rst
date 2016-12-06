@@ -9,7 +9,7 @@ backend_utils
 
 
 
-    .. image:: https://github.com/practian-reapps/django-oauth2-backend/blob/master/docs/media/a1-ejemplo_de_arquitectura_de_micoservicios.png
+    .. image:: https://github.com/practian-reapps/django-oauth2-backend/blob/master/docs/media/a1-ejemplo_de_arquitectura_de_micoserviciosx.png
         :alt: HTTPie compared to cURL
         :width: 100%
         :align: center
@@ -81,14 +81,14 @@ Meta
 Change log
 ----------
 
-See `CHANGELOG <https://github.com/practian-reapps/django-oauth2-backend/blob/master/CHANGELOG.rst>`_.
+See `CHANGELOG <https://github.com/practian-reapps/django-backend-utils/blob/master/CHANGELOG.rst>`_.
 
 
 -------
 Licence
 -------
 
-BSD-3-Clause: `LICENSE <https://github.com/practian-reapps/django-oauth2-backend/blob/master/LICENSE>`_.
+BSD-3-Clause: `LICENSE <https://github.com/practian-reapps/django-backend-utils/blob/master/LICENSE>`_.
 
 
 
@@ -104,9 +104,9 @@ Authors
 Contributors
 -------
 
-See https://github.com/practian-reapps/django-oauth2-backend/graphs/contributors
+See https://github.com/practian-reapps/django-backend-utils/graphs/contributors
 
-.. _github: https://github.com/practian-reapps/django-oauth2-backend
+.. _github: https://github.com/practian-reapps/django-backend-utils
 .. _Django: https://www.djangoproject.com
 .. _Django REST Framework: http://www.django-rest-framework.org
 .. _Django OAuth Toolkit: https://django-oauth-toolkit.readthedocs.io
