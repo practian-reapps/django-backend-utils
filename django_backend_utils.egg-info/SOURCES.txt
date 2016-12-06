@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+backend_utils/__init__.py
+backend_utils/apps.py
+backend_utils/logs.py
+backend_utils/pagination.py
+backend_utils/permissions.py
+backend_utils/serializers.py
+backend_utils/tests.py
+django_backend_utils.egg-info/PKG-INFO
+django_backend_utils.egg-info/SOURCES.txt
+django_backend_utils.egg-info/dependency_links.txt
+django_backend_utils.egg-info/requires.txt
+django_backend_utils.egg-info/top_level.txt
