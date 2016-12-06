@@ -10,7 +10,7 @@ backend_utils
 
 
     .. image:: https://github.com/practian-reapps/django-oauth2-backend/blob/master/docs/media/a1-ejemplo_de_arquitectura_de_micoserviciosx.png
-        :alt: HTTPie compared to cURL
+        :alt: backend_utils
         :width: 100%
         :align: center
 
